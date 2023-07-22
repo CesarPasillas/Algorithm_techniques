@@ -14,11 +14,11 @@ public class ThreeStepReversal {
 
         k = k % n; // This operation is to avoid doing extra movements.
 
-        // Invert the array
+        // Step 1: Invert the array
         reverse(nums, 0, n - 1);
-        // Invert the first elements
+        // Step 2: Invert the first elements
         reverse(nums, 0, k - 1);
-        // Invertir the last elements
+        // Step 3: Invert the last elements
         reverse(nums, k, n - 1);
     }
 
