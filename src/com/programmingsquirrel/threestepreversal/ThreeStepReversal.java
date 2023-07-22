@@ -24,7 +24,7 @@ public class ThreeStepReversal {
 
     public static void reverse(int[] nums, int start, int end) {
 
-        /* The idea is to reverse the values that indicates from the start and end,
+        /* The idea is to reverse the values that indicate from the start and end,
          * in other words switch the first element (start) with the final element (end)
          */
         while (start < end) {
